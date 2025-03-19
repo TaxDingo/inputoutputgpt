@@ -1,0 +1,3 @@
+<h2>Padre</h2>
+<app-child [message]="parentMessage" (messageEvent)="receiveMessage($event)"></app-child>
+<p><strong>Mensaje recibido del hijo:</strong> {{ childMessage }}</p>
